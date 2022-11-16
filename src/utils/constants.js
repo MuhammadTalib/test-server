@@ -1,0 +1,21 @@
+module.exports = Object.freeze({
+  API_TYPE: "API",
+  LOG_TYPE_SYSTEM: "SYSTEM",
+  LOG_TYPE_USER: "USER",
+  ADD: "ADD",
+  EDIT: "EDIT",
+  DELETE: "DELETE",
+  COMPONENT_POPULATE_PARAMS:
+    "id name attributes events version type updatedAt createdAt",
+  TRIGGER_POPULATE_PARAMS: "id name services",
+  ASSET_POPULATE_PARAMS: "id name url uri checksum",
+  WEB: "web",
+  MOBILE: "mobile",
+  NAVIGATION: "NAVIGATION",
+  SYSTEM: "system",
+  USER: "user",
+  PRODUCTION: "production",
+  DEVELOPMENT: "development",
+  IOS: "Ios",
+  ANDROID: "Android",
+});

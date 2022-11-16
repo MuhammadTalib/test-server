@@ -1,0 +1,7 @@
+{
+  "apis": {
+    "login": {
+      "success": "User logged in successfully"
+    }
+  }
+}

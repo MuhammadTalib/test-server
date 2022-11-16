@@ -1,0 +1,216 @@
+{
+	"apis": {
+		"global": {
+			"error": "Internal Server Error",
+			"unauthorized": "Unauthorized",
+			"tokenExpired": "Your session is expired, Please login"
+		},
+		"login": {
+			"success": "User logged in successfully",
+			"invalidLogin": "Invalid Login ID/Password",
+			"userInactive": "User inactive, please activate user to login",
+			"failed": "Unable to login"
+		},
+		"checkAvailability": {
+			"usernameAvailable": "Username is available",
+			"userExists": "Username is already taken",
+			"failed": "Invalid Link"
+		},
+		"activateUser": {
+			"userNotFound": "User Not Found",
+			"userAlreadyActive": "User Already Active",
+			"success": "User Activated",
+			"failed": "Invalid Link"
+		},
+		"registration": {
+			"userNotFound": "User Not Found",
+			"emailExists": "Email already exist",
+			"templateNotFound": "Activate User Email Templete not found",
+			"emailFailed": "Registration Email Not Sent Successfully",
+			"success": "Password Changed Successfully",
+			"failed": "Invalid Link"
+		},
+		"forgotpassword": {
+			"userNotFound": "User Not Found",
+			"templateNotFound": "Forgot Password Templete not found",
+			"emailSent": "Forgot Password Email Sent Successfully",
+			"emailFailed": "Forgot Password Email Not Sent Successfully",
+			"success": "Password Changed Successfully",
+			"failed": "Invalid Link"
+		},
+		"resetpassword": {
+			"linkExpired": "Reset Password Link Expired",
+			"userNotFound": "User Not Found",
+			"success": "Password Changed Successfully",
+			"failed": "Invalid Link"
+		},
+		"validateLink": {
+			"success": "Link Verified",
+			"failed": "Invalid Link"
+		},
+		"logout": {
+			"success": "User logout successfully",
+			"failed": "Unable to logout"
+		},
+		"refreshToken": {
+			"success": "Token refreshed successfully",
+			"failed": "Unable to refresh token"
+		},
+		"counter": {
+			"success": "Id generated successfully.",
+			"failed": "unable to create id."
+		},
+		"getAllTriggers": {
+			"success": "Triggers fetched successfully",
+			"failed": "Unable To Get Triggers"
+		},
+		"addTrigger": {
+			"success": "Trigger added successfully",
+			"failed": "Trigger addition failed"
+		},
+		"addChannel": {
+			"success": "Channel added successfully",
+			"failed": "Channel addition failed"
+		},
+		"editTrigger": {
+			"success": "Trigger saved successfully",
+			"failed": "Trigger saved failed"
+		},
+		"deleteTrigger": {
+			"success": "Trigger deleted successfully",
+			"failed": "Trigger deletion failed"
+		},
+		"deleteTriggersByProjectID": {
+			"success": "Triggers deleted successfully",
+			"failed": "Triggers deletion failed"
+		},
+		"addDocumentation": {
+			"success": "Documentation saved successfully",
+			"failed": "Unable to Save Documentation"
+		},
+		"deleteComponent": {
+			"success": "Component deleted successfully",
+			"failed": "Component deletion failed"
+		},
+		"addMultiComponents": {
+			"success": "Components Saved successfully",
+			"failed": "Unable to get components"
+		},
+		"getThemes": {
+			"success": "Themes fetched successfully",
+			"failed": "Themes not found"
+		},
+		"uploadAsset": {
+			"success": "Asset saved successfully",
+			"failed": "Unable to save asset",
+			"nameAlreadyExists": "Asset name already exists"
+		},
+		"deleteAssetsByProjectID": {
+			"success": "Assets deleted successfully",
+			"failed": "Assets deletion failed"
+		},
+		"getAssets": {
+			"success": "Assets fetched successfully",
+			"failed": "Unable to get assets"
+		},
+		"getSystemComponents": {
+			"success": "System Components fetched successfully",
+			"failed": "Unable to get Components"
+		},
+		"getComponents": {
+			"success": "Components fetched successfully",
+			"failed": "Unable to get Components"
+		},
+		"addComponent": {
+			"success": "Components Saved successfully",
+			"failed": "Components Not Saved"
+		},
+		"deleteComponentsByProjectID": {
+			"success": "Components Deleted successfully",
+			"failed": "Components Nots Deleted"
+		},
+		"addSystemCompDocumentation": {
+			"success": "Documentation Saved Successfully",
+			"failed": "Unable to Save Documentation"
+		},
+		"deleteProjectById": {
+			"success": "Project Deleted successfully",
+			"failed": "Project Not Deleted"
+		},
+		"generateJSON": {
+			"success": "JSON Generated Successfully",
+			"failed": "Unable to Generate JSON"
+		},
+		"getProjectConfiguration": {
+			"success": "Project configuration fetched successfully",
+			"failed": "Unable to get JSON",
+			"projectNotPublished": "Project not published"
+		},
+		"createProject": {
+			"success": "Project Created Successfully",
+			"failed": "Unable to Create Project. Please Try Again!",
+			"nameAlreadyExists": "Project name already exists"
+		},
+		"deleteProject": {
+			"success": "Project Deleted Successfully",
+			"failed": "Unable to Delete Project. Please Try Again!"
+		},
+		"updatedProject": {
+			"success": "Project Updated Successfully",
+			"failed": "Project Not Updated. Please Try Again!"
+		},
+		"getProjects": {
+			"success": "Projects Fetched Successfully",
+			"failed": "Unable to Get Projects"
+		},
+		"editComponent": {
+			"success": "Component Updated Successfully",
+			"failed": "Component Not Updated. Please Try Again!"
+		},
+		"getHeadersCollection": {
+			"success": "Headers Collection Fetched Successfully",
+			"failed": "Unable To Fetch Headers Collection"
+		},
+		"editHeadersCollection": {
+			"success": "Headers Collection Saved Successfully",
+			"failed": "Unable To Save Headers Collection"
+		},
+		"deleteHeadersCollection": {
+			"success": "Headers Collection Deleted Successfully",
+			"failed": "Unable To Delete Headers Collection"
+		},
+		"addHeadersCollection": {
+			"success": "Headers Collection Added Successfully",
+			"failed": "Unable To Add Headers Collection"
+		},
+		"addAuthorizationConfiguration": {
+			"success": "Security Collection Added Successfully",
+			"failed": "Unable To Add Security Collection"
+		},
+		"getPreview": {
+			"success": "Preview Fetched Successfully",
+			"failed": "Unable To Fetch Preview"
+		},
+		"editPreview": {
+			"success": "Preview Saved Successfully",
+			"failed": "Unable To Save Preview"
+		},
+		"deletePreview": {
+			"success": "Preview Deleted Successfully",
+			"failed": "Unable To Delete Preview"
+		},
+		"addPreview": {
+			"success": "Preview Added Successfully",
+			"failed": "Unable To Add Preview"
+		},
+		"register": {
+			"emailExists": "Email already registered!"
+		}
+	},
+	"Cannot read property 'username' of null": "Cannot read property 'username' of null",
+	"Password or username is incorrect": "Password or username is incorrect",
+	"A user with the given username is already registered": "A user with the given username is already registered",
+	"Cannot read properties of null (reading 'username')": "Cannot read properties of null (reading 'username')",
+	"Cannot read properties of null (reading 'status')": "Cannot read properties of null (reading 'status')",
+	"Missing credentials": "Missing credentials"
+}
